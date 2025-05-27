@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#800000">
+    <title>Training & Support - TechLeons</title>
+    <meta name="description" content="Detailed information about TechLeons' Training and Support services.">
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="Jost/Jost-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="images/logo.svg" as="image">
+    <!-- Favicon -->
+    <link rel="icon" href="images/fevicon.svg" type="image/svg+xml">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechLeons Logo"></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%); color: white; padding: 80px 0;">
+        <div class="container">
+            <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h1 style="font-size: 3rem; margin-bottom: 20px;">Become a Certified Data Engineer</h1>
+                <p style="font-size: 1.2rem; margin-bottom: 30px;">Unlock your career potential with our industry-aligned, hands-on training programs in Big Data Engineering, Data Engineering, and ETL Development. Learn the latest tools, real-time project skills, and cloud technologies including AWS, Azure, and GCP — from beginner to professional level.</p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="#courses" class="btn btn-light">Explore Courses</a>
+                    <a href="#contact" class="btn btn-outline">Book Free Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>🚀 Why Choose Us?</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">✅</div>
+                    <h4>100% Practical Hands-On Training</h4>
+                    <p>Learn by doing with real-world projects and practical exercises.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">👨‍💼</div>
+                    <h4>Designed by Industry Experts</h4>
+                    <p>Curriculum crafted by professionals with years of industry experience.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">🏗️</div>
+                    <h4>Real-Time Projects & Capstone Work</h4>
+                    <p>Build a portfolio with industry-relevant projects and capstone work.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">☁️</div>
+                    <h4>Cloud Technology Integration</h4>
+                    <p>Master AWS, Azure, and GCP with hands-on cloud projects.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">🎯</div>
+                    <h4>Career Support & Certification</h4>
+                    <p>Get career guidance and certification preparation support.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">📺</div>
+                    <h4>Live Online & Self-Paced Options</h4>
+                    <p>Choose from live instructor-led or self-paced learning options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section" style="background-color: #f8fafc;">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>🧠 Our Courses</h2>
+                <p>Choose from our comprehensive training programs designed for different career paths</p>
+            </div>
+            
+            <!-- Course Cards -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+                
+                <!-- Big Data Engineer Course -->
+                <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; color: white; text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 15px;">🚀</div>
+                        <h3>Big Data Engineer Training Program</h3>
+                        <p>Master data at scale using modern big data technologies</p>
+                    </div>
+                    <div style="padding: 30px;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 15px;">🔑 Key Topics:</h4>
+                        <ul style="list-style: none; margin-bottom: 20px;">
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Apache Hadoop, HDFS, MapReduce</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Apache Spark & PySpark</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Kafka for real-time data streaming</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Data Lakes & Data Lakehouse Architecture</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• HBase, Hive, Pig</li>
+                        </ul>
+                        <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                            <p><strong>📊 Tools:</strong> Hadoop, Spark, Kafka, Airflow, HBase</p>
+                            <p><strong>☁️ Cloud:</strong> AWS S3, EMR, Glue, Redshift | Azure HDInsight | GCP DataProc</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Data Engineer Course -->
+                <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 30px; color: white; text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 15px;">📊</div>
+                        <h3>Data Engineer Masterclass</h3>
+                        <p>Build efficient and scalable data pipelines with modern data engineering stacks</p>
+                    </div>
+                    <div style="padding: 30px;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 15px;">🔑 Key Topics:</h4>
+                        <ul style="list-style: none; margin-bottom: 20px;">
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• SQL (advanced), Data Modeling</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Python for Data Engineers</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Apache Airflow for Orchestration</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Data Warehousing (Star/Snowflake schema)</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Data Integration & ETL Pipeline Design</li>
+                        </ul>
+                        <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                            <p><strong>📊 Tools:</strong> PostgreSQL, Airflow, Pandas, Docker, Terraform</p>
+                            <p><strong>☁️ Cloud:</strong> AWS Glue, GCP Dataflow, Azure Data Factory</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- ETL Developer Course -->
+                <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 30px; color: white; text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 15px;">🛠️</div>
+                        <h3>ETL Developer Training Program</h3>
+                        <p>Transform and load massive datasets across enterprise systems using modern ETL tools</p>
+                    </div>
+                    <div style="padding: 30px;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 15px;">🔑 Key Topics:</h4>
+                        <ul style="list-style: none; margin-bottom: 20px;">
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• ETL/ELT Fundamentals & Architecture</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Data Extraction from APIs, Flat Files, and Databases</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Batch vs Stream ETL</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Data Quality & Data Lineage</li>
+                            <li style="padding: 5px 0; border-left: 3px solid var(--primary-color); padding-left: 15px; margin-bottom: 8px;">• Error Handling & Retry Logic</li>
+                        </ul>
+                        <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                            <p><strong>🛠️ Tools:</strong> Informatica, Talend, Apache NiFi, AWS Glue</p>
+                            <p><strong>☁️ Cloud:</strong> Azure Data Factory, GCP Cloud Composer</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capstone Projects Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>🏗️ Capstone Projects</h2>
+                <p>Each course includes real-world projects to apply your skills</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid var(--primary-color);">
+                    <h4 style="color: var(--primary-color);">Real-Time Data Pipeline</h4>
+                    <p>Build with Kafka, Spark & Cassandra for streaming data processing</p>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid var(--primary-color);">
+                    <h4 style="color: var(--primary-color);">Data Lake Ingestion</h4>
+                    <p>Analytics with AWS S3 & Athena for large-scale data processing</p>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid var(--primary-color);">
+                    <h4 style="color: var(--primary-color);">Multi-Cloud Data Movement</h4>
+                    <p>With Azure ADF & GCP BigQuery for cross-platform integration</p>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid var(--primary-color);">
+                    <h4 style="color: var(--primary-color);">ETL Automation</h4>
+                    <p>With Airflow and Great Expectations for data quality assurance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud Training Section -->
+    <section class="section" style="background-color: #f8fafc;">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>🌩️ Cloud Training Coverage</h2>
+                <p>Gain in-demand cloud data engineering skills across all major platforms</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 20px;">🟦</div>
+                    <h3 style="color: #0078d4;">Microsoft Azure</h3>
+                    <ul style="list-style: none; text-align: left; margin-top: 20px;">
+                        <li style="padding: 8px 0;">• Azure Data Factory</li>
+                        <li style="padding: 8px 0;">• Synapse Analytics</li>
+                        <li style="padding: 8px 0;">• Azure Data Lake</li>
+                    </ul>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 20px;">🟥</div>
+                    <h3 style="color: #ff9900;">Amazon AWS</h3>
+                    <ul style="list-style: none; text-align: left; margin-top: 20px;">
+                        <li style="padding: 8px 0;">• AWS Glue</li>
+                        <li style="padding: 8px 0;">• Kinesis & Lambda</li>
+                        <li style="padding: 8px 0;">• Redshift</li>
+                    </ul>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 4rem; margin-bottom: 20px;">🟨</div>
+                    <h3 style="color: #4285f4;">Google Cloud Platform</h3>
+                    <ul style="list-style: none; text-align: left; margin-top: 20px;">
+                        <li style="padding: 8px 0;">• BigQuery</li>
+                        <li style="padding: 8px 0;">• Dataflow</li>
+                        <li style="padding: 8px 0;">• Cloud Composer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>🎓 Certification Paths Supported</h2>
+                <p>We align our curriculum with industry certifications</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px;">
+                <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; border-top: 4px solid #ff9900;">
+                    <h4 style="color: #ff9900;">AWS Certified Data Analytics – Specialty</h4>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; border-top: 4px solid #4285f4;">
+                    <h4 style="color: #4285f4;">Google Professional Data Engineer</h4>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; border-top: 4px solid #0078d4;">
+                    <h4 style="color: #0078d4;">Microsoft Azure Data Engineer Associate</h4>
+                </div>
+                <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; border-top: 4px solid var(--primary-color);">
+                    <h4 style="color: var(--primary-color);">Databricks Data Engineer Certification</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrollment Options Section -->
+    <section class="section" style="background-color: #f8fafc;">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>📅 Enrollment Options</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 15px;">🎥</div>
+                    <h4>Live Online Classes</h4>
+                    <p>Instructor-Led interactive sessions</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 15px;">🧑‍💻</div>
+                    <h4>Self-Paced Video Training</h4>
+                    <p>Learn at your own pace with recorded content</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 15px;">👨‍🏫</div>
+                    <h4>Weekend Batches</h4>
+                    <p>Perfect for working professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Add-ons Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                <h2>🧩 Bonus Add-Ons</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px;">
+                <div style="background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); color: white; padding: 25px; border-radius: 10px; text-align: center;">
+                    <h4>Resume & Interview Preparation</h4>
+                </div>
+                <div style="background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); color: white; padding: 25px; border-radius: 10px; text-align: center;">
+                    <h4>GitHub Project Portfolio Guidance</h4>
+                </div>
+                <div style="background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); color: white; padding: 25px; border-radius: 10px; text-align: center;">
+                    <h4>Mock Interview Sessions</h4>
+                </div>
+                <div style="background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); color: white; padding: 25px; border-radius: 10px; text-align: center;">
+                    <h4>24/7 Doubt Clearing Support</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="section" style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%); color: white;">
+        <div class="container">
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px;">✅ Ready to launch your career in Data Engineering?</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 30px;">Join thousands of professionals who have transformed their careers with our comprehensive training programs.</p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-light" style="padding: 15px 30px; font-size: 1.1rem;">👉 Book a Free Demo</a>
+                    <a href="contact.html" class="btn btn-outline" style="padding: 15px 30px; font-size: 1.1rem;">Contact Us Today!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">TechLeons</div>
+                    <p>Providing innovative IT solutions to businesses worldwide.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@techleons.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechLeons. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a href="disclaimer.html">Disclaimer</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

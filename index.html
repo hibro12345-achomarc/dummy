@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#800000">
+    <title>TechLeons - Next-Gen IT Solutions</title>
+    <meta name="description" content="TechLeons provides next-generation IT solutions powered by innovation and design">
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="images/logo.svg" as="image">
+    <link rel="preload" href="images/hero-video.mp4" as="video">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive-enhancements.css">
+    <!-- Preload Jost font -->
+    <link rel="preload" href="Jost/Jost-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/fevicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo"><img src="images/logo.svg" alt="TechLeons Logo"></a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html" >About Us</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/11.jpg">
+            <source src="images/hero-video.mp4" type="video/mp4">
+            <!-- Fallback background image if video doesn't load -->
+            Your browser does not support the video tag.
+        </video>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Next-Gen IT Solutions Powered by Innovation and Design</h1>
+                <p>We deliver cutting-edge technology solutions that drive business growth and digital transformation</p>
+                <div class="hero-btns">
+                    <a href="services.html" class="btn btn-primary">Explore Services</a>
+                    <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Us</h2>
+                <p>We combine technical expertise with creative solutions</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="feature-card highlight-card">
+                    <img src="images/2.jpg" alt="Expert Development">
+                    <i class="fas fa-code"></i>
+                    <h3>Expert Development</h3>
+                    <p>Our team of skilled developers creates robust, scalable solutions tailored to your business needs.</p>
+                    <a href="services.html" class="btn-link">Learn More</a>
+                </div>
+                <div class="feature-card">
+                    <img src="images/3.jpg" alt="Creative Design">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Creative Design</h3>
+                    <p>We craft beautiful, intuitive interfaces that enhance user experience and engagement.</p>
+                    <a href="services.html" class="btn-link">Learn More</a>
+                </div>
+                <div class="feature-card">
+                    <img src="images/4.jpg" alt="Dedicated Support">
+                    <i class="fas fa-headset"></i>
+                    <h3>Dedicated Support</h3>
+                    <p>Our support team is always ready to assist you with any technical issues or questions.</p>
+                    <a href="services.html" class="btn-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Showcase Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive solutions for your business needs</p>
+            </div>
+            <div class="services-showcase">
+                <div class="grafval-card featured">
+                    <div class="grafval-card-badge">Featured</div>
+                    <div class="grafval-card-image">
+                        <img src="images/5.jpg" alt="Web Development" data-src="images/5.jpg" data-critical="true">
+                    </div>
+                    <div class="grafval-card-content">
+                        <div class="grafval-card-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="grafval-card-title">Web Development</h3>
+                        <p class="grafval-card-text">Custom websites and web applications that drive business growth and enhance user experience.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Responsive Design</li>
+                            <li><i class="fas fa-check"></i> E-commerce Solutions</li>
+                            <li><i class="fas fa-check"></i> Content Management</li>
+                        </ul>
+                        <a href="services.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="grid grid-2 mt-4">
+                    <div class="grafval-card compact">
+                        <div class="grafval-card-content">
+                            <div class="grafval-card-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h3 class="grafval-card-title">Mobile App Development</h3>
+                            <p class="grafval-card-text">Native and cross-platform mobile applications for iOS and Android.</p>
+                            <a href="services.html" class="btn-link">Explore</a>
+                        </div>
+                    </div>
+                    
+                    <div class="grafval-card compact">
+                        <div class="grafval-card-content">
+                            <div class="grafval-card-icon"><i class="fas fa-cloud"></i></div>
+                            <h3 class="grafval-card-title">Cloud Solutions</h3>
+                            <p class="grafval-card-text">Scalable cloud infrastructure and migration services.</p>
+                            <a href="services.html" class="btn-link">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Let's discuss how our IT solutions can help you achieve your goals</p>
+            <a href="contact.html" class="btn btn-light">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo"><img src="images/logo.svg" alt="TechLeons Logo" style="height: 45px; margin-right: 8px;"></div>
+                    <p>Providing innovative IT solutions to businesses worldwide.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="disclaimer.html">Disclaimer's</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechLeons. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript files with defer attribute for better performance -->
+    <script src="js/main.js" defer></script>
+</body>
+</html>
