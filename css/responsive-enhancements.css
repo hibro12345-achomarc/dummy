@@ -1,0 +1,80 @@
+/* Enhanced Mobile Responsive Styles for Graphics */
+@media (max-width: 480px) {
+  .hero {
+    padding: 100px 0 60px;
+    min-height: 85vh;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    padding: 0 var(--spacing-lg);
+  }
+  
+  .hero-btns .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    min-width: 150px;
+  }
+  
+  .feature-card img {
+    height: 140px;
+  }
+  
+  .feature-card i {
+    font-size: 2rem;
+  }
+  
+  .grafval-card-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .cta-section p {
+    font-size: 1rem;
+  }
+}
+
+/* Enhanced Graphics Performance */
+.hero-video {
+  will-change: filter;
+}
+
+.feature-card img,
+.grafval-card-image img {
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Smooth animations for better UX */
+@media (prefers-reduced-motion: reduce) {
+  .hero::before,
+  .cta-section::before,
+  .feature-card,
+  .grafval-card,
+  .hero-content {
+    animation: none;
+  }
+  
+  .hero-video {
+    filter: none;
+  }
+}
+
+/* High DPI display optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .feature-card img,
+  .grafval-card-image img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
